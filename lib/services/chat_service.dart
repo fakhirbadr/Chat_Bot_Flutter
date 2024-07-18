@@ -5,8 +5,8 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 
 class ChatService {
-  final String apiUrl = 'https://api.openai.com/v1/chat/completions';
-  final String apiKey = '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'; // Replace with your actual API key
+  final String apiUrl = '-';
+  final String apiKey = '-'; // Replace with your actual API key
 
   Future<String> sendMessage(List<Messages> messages) async {
     final openAiModel = ChatCompletionModel(
